@@ -407,7 +407,8 @@ $html .= '
       					'.(flowplayer::_getbuttonColor()!=''?'buttonColor: \''.flowplayer::_getbuttonColor().'\',':'').'
       					backgroundGradient: \'none\',
       					bufferGradient: \'none\',
-   						opacity:1.0
+   						opacity:1.0'.(count($list)>1?',
+						playlist: true':'').'
    						}
 				},';
 				
