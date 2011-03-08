@@ -292,7 +292,7 @@ $html .= '
 							$html .= '
 						<h3>Like this plugin?</h3>
 							A lot of development time and effort went into Flowplayer and this plugin, you can help support further development by purchasing a comercial license for flowplayer.
-						<h3><a href="http://flowplayer.org/download/index.html?aff=100&src=saiweb_plugin&domain='.$_SERVER['SERVER_NAME'].'" target="_blank">Get a commercial license now!</a></h3>
+						<h3><a href="http://Flowplayer.ojrq.net/c/12651/7417/510" target="_blank">Get a commercial license now!</a></h3>
 						';
 						
 						}
