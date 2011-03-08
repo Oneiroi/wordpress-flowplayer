@@ -31,7 +31,7 @@ Changelog
 
 Support development
 -------------------
-If you like this plugin and flowplayer please consider the purchase of a commercial [Flowplayer license](http://flowplayer.org/download/index.html?aff=100)
+If you like this plugin and flowplayer please consider the purchase of a commercial [Flowplayer license](http://Flowplayer.ojrq.net/c/12651/7417/510)
 
 Contribute
 ----------
