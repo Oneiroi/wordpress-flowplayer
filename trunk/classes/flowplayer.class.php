@@ -39,14 +39,14 @@ class flowplayer {
 	
 	function commercial_url(){
 		if(!defined('FLOWPLAYER_COMMERCIAL')){
-			define('FLOWPLAYER_COMMERCIAL',flowplayer::plugin_url().'/flowplayer/commercial/flowplayer.commercial-3.1.5.swf');
+			define('FLOWPLAYER_COMMERCIAL',flowplayer::plugin_url().'/flowplayer/commercial/flowplayer.commercial.swf');
 		}
 		return FLOWPLAYER_COMMERCIAL;
 	}
 	
 	function gpl_url(){
 		if(!defined('FLOWPLAYER_GPL')){
-			define('FLOWPLAYER_GPL',flowplayer::plugin_url().'/flowplayer/gpl/flowplayer-3.1.5.swf');
+			define('FLOWPLAYER_GPL',flowplayer::plugin_url().'/flowplayer/gpl/flowplayer.swf');
 		}
 		
 		return FLOWPLAYER_GPL;
@@ -113,7 +113,7 @@ class flowplayer {
 	
 	function load_scripts(){
 		wp_enqueue_script('jquery');
-		wp_enqueue_script('flowplayer', get_template_directory_uri() . '/flowplayer/flowplayer-3.1.4.min.js');
+		wp_enqueue_script('flowplayer', get_template_directory_uri() . '/flowplayer/flowplayer.js');
 		if(is_admin()){
 			wp_enqueue_script('jquery.saiweb', get_template_directory_uri() . '/js/jquery.saiweb.min.js');
 			wp_enqueue_script('farbtastic');
