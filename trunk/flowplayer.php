@@ -20,6 +20,8 @@ flowplayer::setup();
  add_action('admin_menu', 'flowplayer_admin');
  //save menu callback
 // add_action('save_post', 'fp_save');
+ add_action('wp_print_scripts', 'flowplayer_scripts' );
+ add_action('wp_print_styles', 'flowplayer_styles' );
  //javascript head
  add_action('wp_head', 'flowplayer_head', 20);
  //content callback
@@ -153,6 +155,14 @@ function flowplayer_settings(){
 
 function flowplayer_head(){
 	echo flowplayer::player_head();
+} 
+
+function flowplayer_scripts(){
+	flowplayer::load_scripts();
+} 
+
+function flowplayer_styles(){
+	flowplayer::load_styles();
 } 
  
 
