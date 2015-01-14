@@ -1,3 +1,8 @@
+THIS PROJECT IS NO LONGER MAINTAINED
+====================================
+
+pull requests will still be accepted if appliable; the code here is now for reference only and I couldn't vouch for its functionality nor stability.
+
 Wordpress Flowplayer
 ====================
 
@@ -28,10 +33,6 @@ Changelog
 * 0.3		- wpfp to word-press-flow-player relative path change
 * 0.2		- syntax tweaks
 * 0.1		- Initial check in of the project to word press subversion
-
-Support development
--------------------
-If you like this plugin and flowplayer please consider the purchase of a commercial [Flowplayer license](http://Flowplayer.ojrq.net/c/12651/7417/510)
 
 Contribute
 ----------
